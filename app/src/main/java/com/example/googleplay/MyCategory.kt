@@ -20,7 +20,7 @@ class MyCategory(val categoryList: List<String>) : RecyclerView.Adapter<MyCatego
     override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
         holder.textView.text = categoryList[position]
 
-        val innerData = listOf("App 1", "App 2", "App 3", "App 4", "App 5")
+        val innerData = listOf("Viet Nam App", "Lao App", "Cam App", "China App", "Us App")
         val innerAdapter = InnerAdapter(innerData)
         holder.horizontalRecyclerView.apply {
             layoutManager = LinearLayoutManager(holder.itemView.context, LinearLayoutManager.HORIZONTAL, false)

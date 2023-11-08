@@ -15,16 +15,16 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.googleplay.ui.theme.GooglePlayTheme
 
 val categoryList = listOf(
-    "Technology",
-    "Food & Cooking",
+    "Fly Booking",
+    "Popular App",
     "Fashion",
-    "Art & Design",
+    "Hot",
     "Science",
     "Music",
-    "Sports",
+    "Viet Nam App",
     "Education",
     "Gaming",
-    "Entertainment",
+    "Movie",
 )
 
 class MainActivity : ComponentActivity() {
